@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "../components/molekul/Navbar";
 
 const LandingPage = () => {
-  return <div className="container">Home</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default LandingPage;

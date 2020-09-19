@@ -223,6 +223,7 @@
 .navbar-light {
   .navbar-brand {
     color: $navbar-light-brand-color;
+    font-size: 1.5rem;
 
     @include hover-focus() {
       color: $navbar-light-brand-hover-color;
