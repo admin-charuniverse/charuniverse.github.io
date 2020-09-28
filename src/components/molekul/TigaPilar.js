@@ -1,17 +1,17 @@
-import React from "react";
-import Card from "../atom/Card";
-import Webinar from "../../assets/images/webinar.png";
-import GlobalEducation from "../../assets/images/global-education.png";
-import Medal from "../../assets/images/medal.png";
+import React from 'react';
+import Card from '../atom/Card';
+import Webinar from '../../assets/images/webinar.png';
+import GlobalEducation from '../../assets/images/global-education.png';
+import Medal from '../../assets/images/medal.png';
 
 const TigaPilar = (props) => {
   return (
-    <section id="tiga-pilar" class="bg-light">
-      <div class="container mb-5 pb-4">
+    <section id="tiga-pilar" className="bg-light">
+      <div className="container mb-5 pb-4">
         <div className="row justify-content-center py-4">
           <h2>Tiga Pilar</h2>
         </div>
-        <div class="row justify-content-around">
+        <div className="row justify-content-around">
           <Card
             type="pilar"
             desc="Colaborasi yang rasional"

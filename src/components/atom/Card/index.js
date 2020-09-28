@@ -2,16 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Card = (props) => {
-  const { type, desc, img, className } = props;
+  const { type, desc, img } = props;
   switch (type) {
-    case "pilar":
+    case 'pilar':
       return (
-        <div
-          className="card d-flex align-items-center p-3"
-          style={{ width: "18rem" }}
-        >
-          <img src={img} className={`card-img-top ${className}`} alt="..." />
-          <div className="card-body border-top mt-3">
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={img} class="card-img-top" alt="..." />
+          <div className="card-body">
             <p className="card-text">{desc}</p>
           </div>
         </div>
