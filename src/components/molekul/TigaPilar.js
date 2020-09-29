@@ -4,7 +4,7 @@ import Webinar from '../../assets/images/webinar.png';
 import GlobalEducation from '../../assets/images/global-education.png';
 import Medal from '../../assets/images/medal.png';
 
-const TigaPilar = (props) => {
+const TigaPilar = () => {
   return (
     <section id="tiga-pilar" className="bg-light">
       <div className="container mb-5 pb-4">
@@ -12,23 +12,16 @@ const TigaPilar = (props) => {
           <h2>Tiga Pilar</h2>
         </div>
         <div className="row justify-content-around">
-          <Card
-            type="pilar"
-            desc="Colaborasi yang rasional"
-            img={Webinar}
-            className="img-icon"
-          />
+          <Card type="pilar" desc="Colaborasi yang rasional" icon={Webinar} />
           <Card
             type="pilar"
             desc="Memiliki Wawasan Global"
-            img={GlobalEducation}
-            className="img-icon"
+            icon={GlobalEducation}
           />
           <Card
             type="pilar"
             desc="Belaku seportif dalam menggapai juara"
-            img={Medal}
-            className="img-icon"
+            icon={Medal}
           />
         </div>
       </div>

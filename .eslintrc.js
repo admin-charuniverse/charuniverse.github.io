@@ -18,9 +18,8 @@ module.exports = {
   plugins: ['react'],
   ignorePatterns: ['serviceWorker.js', '*.test.js'],
   rules: {
-    'semi': ['error', 'always'],
-    'quotes': ['error', 'single'],
-    'linebreak-style': ['error', 'unix'],
-    'indent': ['error', 2],
+    semi: ['error', 'always'],
+    quotes: ['error', 'single'],
+    indent: ['error', 2],
   },
 };

@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const Navbar = () => {
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
-      <div className="container">
-        <a className="navbar-brand font-weight-bold text-primary" href="#">
+      <div className="container" >  
+        <a className="navbar-brand font-weight-bold text-primary" href="/">
           Charuniver
         </a>
         <button
@@ -23,16 +24,16 @@ const Navbar = () => {
             <a className="nav-link active" href="/">
               Home
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/">
               Portofolio
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/">
               Teams
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/">
               Contact us
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/">
               Login
             </a>
           </div>

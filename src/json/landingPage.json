@@ -1,0 +1,169 @@
+{
+  "hero": {
+    "title": "Hello Word!",
+    "subtitle": "This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information."
+  },
+  "tigaPilar": [
+    {
+      "iconUrl": "images/webinar.png",
+      "desc": "Colaborasi yang rasional"
+    },
+    {
+      "iconUrl": "images/global-education.png",
+      "desc": "Memiliki Wawasan Global"
+    },
+    {
+      "iconUrl": "images/medal.png",
+      "desc": "Belaku seportif dalam menggapai juara"
+    }
+  ],
+  "portofolio":[
+    {
+      "devisi": "CP",
+      "item": [
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        }
+      ]
+    },
+    {
+      "devisi": "Ctf",
+      "item": [
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        }
+      ]
+    },
+    {
+      "devisi": "Ux & Sofware Developer",
+      "item": [
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        },
+        {
+          "imgUrl": "images/portofolio-1.jpg",
+          "title": "Berlomba Di Competisi",
+          "desc":"Belaku seportif dalam menggapai juara",
+          "profile": {
+            "imgUrl": "images/profile-1.jpg",
+            "name": "Wahyu",
+            "kelas": "PSIK 19B",
+            "devisi": "CP"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -5,52 +5,92 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-@import "functions";
-@import "variables";
-@import "mixins";
-@import "root";
-@import "reboot";
-@import "type";
-@import "images";
-@import "code";
-@import "grid";
-@import "tables";
-@import "forms";
-@import "buttons";
-@import "transitions";
-@import "dropdown";
-@import "button-group";
-@import "input-group";
-@import "custom-forms";
-@import "nav";
-@import "navbar";
-@import "card";
-@import "breadcrumb";
-@import "pagination";
-@import "badge";
-@import "jumbotron";
-@import "alert";
-@import "progress";
-@import "media";
-@import "list-group";
-@import "close";
-@import "toasts";
-@import "modal";
-@import "tooltip";
-@import "popover";
-@import "carousel";
-@import "spinners";
-@import "utilities";
-@import "print";
+@import 'functions';
+@import 'variables';
+@import 'mixins';
+@import 'root';
+@import 'reboot';
+@import 'type';
+@import 'images';
+@import 'code';
+@import 'grid';
+@import 'tables';
+@import 'forms';
+@import 'buttons';
+@import 'transitions';
+@import 'dropdown';
+@import 'button-group';
+@import 'input-group';
+@import 'custom-forms';
+@import 'nav';
+@import 'navbar';
+@import 'card';
+@import 'breadcrumb';
+@import 'pagination';
+@import 'badge';
+@import 'jumbotron';
+@import 'alert';
+@import 'progress';
+@import 'media';
+@import 'list-group';
+@import 'close';
+@import 'toasts';
+@import 'modal';
+@import 'tooltip';
+@import 'popover';
+@import 'carousel';
+@import 'spinners';
+@import 'utilities';
+@import 'print';
+
+$br-portofolio: 10px;
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Tiga Pilar */
-
-.img-icon {
+.img-icon--pilar {
   width: 60%;
 }
 
-/* Tiga Pilar */
+
+.card {
+  &--portofolio {
+    border-radius: $br-portofolio;
+    overflow: hidden;
+  }
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: $br-portofolio
+}
+
+.img-profile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba($color: #adadad, $alpha: 0.3);
+}
+
+.text-title--portofolio {
+  font-size: 18px;
+  line-height: 12px;
+  font-weight: normal;
+}
+.subtitle--portofolio {
+  font-size: 12px;
+}
+
+footer {
+  .container {
+    color: $gray-600;
+    h1 {
+      color: $gray-900
+    }
+  }
+}
+
